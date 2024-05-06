@@ -8,3 +8,4 @@ C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanz
 C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.exe
 C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.pdb
 C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.GestiFinanza.resources
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.Form2.resources

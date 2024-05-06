@@ -38,6 +38,7 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Inserisci = new System.Windows.Forms.Button();
+            this.dettaglio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.view)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -113,11 +114,24 @@
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
             this.numericUpDown1.Location = new System.Drawing.Point(228, 283);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            -1981284353,
+            -1966660860,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(178, 27);
             this.numericUpDown1.TabIndex = 7;
-            this.numericUpDown1.Maximum = new decimal (9999999999999999999);
-            this.numericUpDown1.Minimum = new decimal(1);
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // dateTimePicker1
             // 
@@ -130,7 +144,7 @@
             // Inserisci
             // 
             this.Inserisci.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.2F);
-            this.Inserisci.Location = new System.Drawing.Point(163, 439);
+            this.Inserisci.Location = new System.Drawing.Point(79, 441);
             this.Inserisci.Name = "Inserisci";
             this.Inserisci.Size = new System.Drawing.Size(148, 34);
             this.Inserisci.TabIndex = 9;
@@ -138,11 +152,23 @@
             this.Inserisci.UseVisualStyleBackColor = true;
             this.Inserisci.Click += new System.EventHandler(this.Inserisci_Click);
             // 
+            // dettaglio
+            // 
+            this.dettaglio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.2F);
+            this.dettaglio.Location = new System.Drawing.Point(258, 425);
+            this.dettaglio.Name = "dettaglio";
+            this.dettaglio.Size = new System.Drawing.Size(148, 67);
+            this.dettaglio.TabIndex = 10;
+            this.dettaglio.Text = "Visualizza nel dettaglio";
+            this.dettaglio.UseVisualStyleBackColor = true;
+            this.dettaglio.Click += new System.EventHandler(this.dettaglio_Click);
+            // 
             // GestiFinanza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 588);
+            this.Controls.Add(this.dettaglio);
             this.Controls.Add(this.Inserisci);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.numericUpDown1);
@@ -154,7 +180,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.view);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GestiFinanza";
             this.Text = "GestiFinanza";
             this.Load += new System.EventHandler(this.GestiFinanza_Load);
@@ -177,6 +203,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button Inserisci;
+        private System.Windows.Forms.Button dettaglio;
     }
 }
 

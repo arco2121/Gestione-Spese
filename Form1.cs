@@ -108,5 +108,11 @@ namespace GestiFInanza
             catch { };
             return tab;
         }
+
+        private void dettaglio_Click(object sender, EventArgs e)
+        {
+            Form2 Finestra = new Form2();
+            Finestra.ShowDialog();
+        }
     }
 }
