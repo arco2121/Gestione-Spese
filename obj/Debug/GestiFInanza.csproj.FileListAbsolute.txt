@@ -1,0 +1,10 @@
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\bin\Debug\GestiFInanza.exe.config
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\bin\Debug\GestiFInanza.exe
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\bin\Debug\GestiFInanza.pdb
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.csproj.AssemblyReference.cache
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.Properties.Resources.resources
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.csproj.GenerateResource.cache
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.csproj.CoreCompileInputs.cache
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.exe
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.pdb
+C:\Users\colom\OneDrive\Desktop\Progetti C#\Gestione-Spese\obj\Debug\GestiFInanza.GestiFinanza.resources
