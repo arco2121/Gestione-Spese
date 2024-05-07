@@ -34,10 +34,10 @@ namespace GestiFInanza
                 string[] s = all[i].Split(',');
                 if (!lines.Contains(s[1]))
                 {
-                    lines += s[1] + " ";
+                    lines += s[1] + ",";
                 }
             }
-            string[] linesea = lines.Split(' ').Distinct().ToArray();
+            string[] linesea = lines.Split(',').Distinct().ToArray();
             string[] linese = new string[linesea.Length-1];
             Array.Copy(linesea, linese, linese.Length);
             float[] tot = new float[linese.Length];
@@ -53,11 +53,10 @@ namespace GestiFInanza
                 }
             }
             tab.Columns.Add("Categoria", typeof(string));
-            tab.Columns.Add("Importo Totale", typeof(float));
+            tab.Columns.Add("Importo Totale in Euro", typeof(float));
             for (int i = 0; i<linese.Length;i++)
             {
                 tab.Rows.Add(linese[i], tot[i]);
-                MessageBox.Show(linese[i] +"    " + tot[i]);
             }
             return tab;
         }

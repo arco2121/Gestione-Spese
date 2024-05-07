@@ -65,7 +65,7 @@ namespace GestiFInanza
             catch { h = ""; }
             if (h == "")
             {
-                string all = "Nome,Categoria,Importo,Data\n" + dta;
+                string all = "Nome,Categoria,Importo in Euro,Data\n" + dta;
                 File.WriteAllText("Dati.csv", all);
                 view.DataSource = StampaInTab();
             }
