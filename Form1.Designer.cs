@@ -181,6 +181,7 @@
             this.Controls.Add(this.view);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "GestiFinanza";
             this.Text = "GestiFinanza";
             this.Load += new System.EventHandler(this.GestiFinanza_Load);
